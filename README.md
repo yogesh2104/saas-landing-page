@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
+title: ShapeXUI SaaS Landing Page
+---
 
-## Getting Started
+# Shapex UI SaaS Landing Page
 
-First, run the development server:
+This repository contains the source code for a full-featured SaaS landing page with **Shapex UI**. The project includes user authentication, role-based admin panel, pricing with Stripe integration, and more.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Landing Page**: Professionally designed to highlight the key features of ShapeXUI.
+- **Authentication**: Secure login and signup functionality using **Auth.js**.
+- **Admin Panel**: Role-based access for managing users and settings.
+- **Light/Dark Mode**: Toggle between light and dark themes for a better user experience.
+- **Pricing Section**: Integrated with **Stripe Payment Gateway** for seamless transactions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Current Progress
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Completed:
+1. Basic Landing Page
+2. Login/Signup Functionality
+3. Light/Dark Mode Toggle
 
-## Learn More
+### Pending:
+1. Integration of **Auth.js** for authentication.
+2. Pricing Page and Plans Implementation.
+3. Stripe Payment Gateway Integration.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**: Next.js with TailwindCSS
+- **Authentication**: Auth.js
+- **Payment**: Stripe
+- **Hosting**: Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation and Setup
 
-## Deploy on Vercel
+To run this project locally:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yogesh2104/saas-landing-page.git
+   cd saas-landing-page
