@@ -1,5 +1,12 @@
 import FooterSection from "@/components/footer-section"
 import SiteHeader from "@/components/site-header"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Landing Page",
+  description: "made with ShapeXUI",
+};
+
 
 interface AppLayoutProps {
   children: React.ReactNode

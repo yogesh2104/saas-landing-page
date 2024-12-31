@@ -15,10 +15,10 @@ export default function LoginFormTwo({
 }: React.ComponentPropsWithoutRef<"div">) {
   return (
     <div
-      className={`flex justify-center items-center min-h-[calc(100vh-3rem)] ${className}`}
+      className={`p-1 flex justify-center items-center min-h-[calc(100vh-3rem)] ${className}`}
     >
       <Card className="w-full max-w-md rounded-lg shadow-lg">
-        <CardContent className="p-8">
+        <CardContent className="p-4 md:p-8">
           <div className="flex flex-col items-center">
             <Link href="/">
                 <Framer className="size-12 border rounded-md bg-white text-black p-1" />

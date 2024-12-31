@@ -57,7 +57,7 @@ const SignUp = () => {
   }, [password]);
 
   return (
-    <section className="min-h-screen ">
+    <section className="min-h-screen p-1">
       <div className="pt-[2.4rem] mb-[2.4rem]">
         <Card className="mx-auto max-w-lg rounded-xl">
           <CardHeader>
@@ -76,7 +76,7 @@ const SignUp = () => {
             </p>
           </div>
           </CardHeader>
-          <CardContent>
+          <CardContent className="p-4 md:p-8">
             <form>
               <div className="grid gap-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

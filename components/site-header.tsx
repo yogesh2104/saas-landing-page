@@ -23,8 +23,8 @@ interface NavItem {
 const navItems: NavItem[] = [
   { title: "Home", href: "#" },
   { title: "About", href: "#" },
-  { title: "Policy", href: "#" },
   { title: "Blog", href: "#" },
+  { title: "Sign UP", href: "/sign-up" },
 ];
 
 const listVariants = {
