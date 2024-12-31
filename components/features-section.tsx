@@ -42,7 +42,7 @@ export default function FeaturesSection() {
             Our Main Features
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            The world's first lazy efficient design system.
+            The world first lazy efficient design system.
           </h2>
           <p className=" text-lg md:text-xl max-w-3xl mx-auto">
           The ShapeXUI tailored for entrepreneurs who prefer taking it easy. Say goodbye to lengthy design processes and hello to rapid development.

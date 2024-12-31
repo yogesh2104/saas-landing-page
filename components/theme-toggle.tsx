@@ -27,3 +27,4 @@ export const ThemeToggle = React.forwardRef<
 });
 
 
+ThemeToggle.displayName = "ThemeToggle"

@@ -10,12 +10,10 @@ import { GoogleLogo } from "@/components/google-logo";
 
   
 
-export default function LoginFormTwo({
-  className,
-}: React.ComponentPropsWithoutRef<"div">) {
+export default function LoginFormTwo() {
   return (
     <div
-      className={`p-1 flex justify-center items-center min-h-[calc(100vh-3rem)] ${className}`}
+      className={`p-1 flex justify-center items-center min-h-[calc(100vh-3rem)]`}
     >
       <Card className="w-full max-w-md rounded-lg shadow-lg">
         <CardContent className="p-4 md:p-8">

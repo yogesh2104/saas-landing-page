@@ -78,7 +78,7 @@ const PricingCard = ({ tier }: { tier: PricingTier }) => {
         <Button className="w-full">Get Started</Button>
       </CardHeader>
       <CardContent>
-        <p className="font-medium text-lg mb-4">What's included:</p>
+        <p className="font-medium text-lg mb-4">What&apos;s included:</p>
         <ul className="space-y-2">
           {tier.features.map((feature, index) => (
             <li key={index} className="flex items-center gap-2">

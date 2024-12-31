@@ -5,9 +5,7 @@ import Link from "next/link";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
-  CardTitle,
 } from "@/components/ui/card"; // npx shadcn@latest add card
 import { Label } from "@/components/ui/label"; // npx shadcn@latest add label
 import { Input } from "@/components/ui/input"; // npx shadcn@latest add input

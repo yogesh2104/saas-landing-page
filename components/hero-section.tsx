@@ -4,6 +4,7 @@ import { ChevronRight, Github } from 'lucide-react';
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import Image from 'next/image';
 
 export default function HeroSection() {
   return (
@@ -82,9 +83,10 @@ export default function HeroSection() {
             </div>
           </div>
           <div className="p-4 ">
-            <img 
+            <Image 
               src="/undraw.svg"
               alt="Component Preview"
+              fill
               className="rounded-lg border shadow-sm p-3"
             />
           </div>
