@@ -74,20 +74,13 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="relative mx-auto mt-14 max-w-6xl flex justify-center">
-        <div className="rounded-xl border bg-background p-2 shadow-2xl ring-1 ring-gray-900/10 dark:ring-white/10">
-          <div className="flex items-center border-b px-4 pb-2">
-            <div className="flex space-x-2">
-              <div className="size-3 rounded-full bg-red-500" />
-              <div className="size-3 rounded-full bg-yellow-500" />
-              <div className="size-3 rounded-full bg-green-500" />
-            </div>
-          </div>
-          <div className="p-4 ">
+        <div className="rounded-lg bg-background w-full p-3 shadow-2xl ring-1 ring-gray-900/10 dark:ring-white/10">
+          <div className="h-[30rem]">
             <Image 
               src="/undraw.svg"
               alt="Component Preview"
               fill
-              className="rounded-lg border shadow-sm p-3"
+              className="rounded-lg border shadow-sm p-4"
             />
           </div>
         </div>
